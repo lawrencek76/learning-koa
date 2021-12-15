@@ -1,6 +1,6 @@
 name: Landing zone request form
 description: Request Landing Zone
-title: "[lz request]: "
+title: "[lz request]: <application name here>"
 labels: ["request"]
 assignees:
   - lawrencek76
