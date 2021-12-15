@@ -13,7 +13,7 @@ Note: Please fill in all requred questions
 ### Application Name:
 <!-- What is the name of the application?  *Required -->
 
-### PMO
+### PMO:
 <!-- What PMO will support the application? *Required
 Examples: 
   - OCIO
