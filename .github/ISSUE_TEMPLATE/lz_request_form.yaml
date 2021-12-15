@@ -18,10 +18,10 @@ body:
       description: What PMO will support the application?
       multiple: false
       options:
-        - label: OCIO (Default)
-        - label: HRS
-        - label: RS
-        - lable: Other (Specify in other info below)
+        - OCIO (Default)
+        - HRS
+        - RS
+        - Other (Specify in other info below)
     validations:
       required: true
   - type: input
@@ -37,8 +37,8 @@ body:
       description: What type of environment is this?
       multiple: false
       options:
-        - label: Non-Production
-        - label: Production
+        - Non-Production
+        - Production
     validations:
       required: true
   - type: dropdown
@@ -47,11 +47,20 @@ body:
       description: What size IP range will be rquired?
       multiple: false
       options:
-        - label: Small
-        - label: Medium
-        - label: Large
+        - Small
+        - Medium
+        - Large
+        - Other (Specify in other info below)
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Other Info
+      description: "Other Info"
+      value: 
+      render: markdown
+  validations:
+    required: true
   - type: markdown
     attributes:
       value: "Thanks for completing our form!"
