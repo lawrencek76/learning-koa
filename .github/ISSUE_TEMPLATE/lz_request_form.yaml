@@ -1,0 +1,57 @@
+name: Landing zone request form
+description: Request Landing Zone
+title: "[lz request]: "
+labels: ["request"]
+assignees:
+  - lawrencek76
+body:
+  - type: input
+    attributes:
+      label: Application Name
+      description: What is the name of the application?
+      placeholder: Enter your answer
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: PMO
+      description: What PMO will support the application?
+      multiple: false
+      options:
+        - label: OCIO (Default)
+        - label: HRS
+        - label: RS
+        - lable: Other (Specify in other info below)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Application Owner
+      description: Provide the names(s) of the Application Owners?
+      placeholder: Enter your answer
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Environment Type
+      description: What type of environment is this?
+      multiple: false
+      options:
+        - label: Non-Production
+        - label: Production
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Environment Size
+      description: What size IP range will be rquired?
+      multiple: false
+      options:
+        - label: Small
+        - label: Medium
+        - label: Large
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!"
