@@ -59,8 +59,8 @@ body:
       description: "Other Info"
       value: 
       render: markdown
-  validations:
-    required: true
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: "Thanks for completing our form!"
