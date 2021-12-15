@@ -47,9 +47,9 @@ body:
       description: What size IP range will be rquired?
       multiple: false
       options:
-        - Small
-        - Medium
-        - Large
+        - Small 30 usable addresses - /27
+        - Medium 126 usable addresses - /25
+        - Large 254 usable addresses - /24
         - Other (Specify in other info below)
     validations:
       required: true
