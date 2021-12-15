@@ -1,7 +1,7 @@
 ---
 name: Landing Zone Request template
 about:  Request Landing Zone
-title: '[lzrequest] - <application name here>'
+title: '[lz request] - <application name here>'
 labels: 'request'
 assignees: 'lawrencek76'
 
