@@ -56,8 +56,10 @@ body:
   - type: textarea
     attributes:
       label: Other Info
-      description: "Other Info"
-      value: 
+      description: "Other Info (attach a file by dropping it in this area)"
+      value: |
+        Other PMO: 
+        Other Size:
       render: markdown
     validations:
       required: true
